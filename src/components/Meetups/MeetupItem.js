@@ -3,6 +3,10 @@ import Card from "../ui/Card";
 import { useContext } from "react";
 import FavoritesContext from "../../store/favorites-context";
 
+/**
+ * Sets up the format and content of each meetup location
+ */
+
 function MeetupItem(props) {
   const favoritesCtx = useContext(FavoritesContext);
   const itemIsFavorite = favoritesCtx.itemIsFavorite(props.id);

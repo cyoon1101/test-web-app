@@ -2,6 +2,11 @@ import { Link } from "react-router-dom";
 
 import classes from './MainNavigation.module.css';
 
+/**
+ * Sets up the top header of the web app that will be visible on 
+ * every page on the web application. 
+ */
+
 function MainNavigation() {
   return (
   <header className={classes.header}>

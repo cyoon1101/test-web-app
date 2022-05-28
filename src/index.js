@@ -6,6 +6,10 @@ import { FavoritesContextProvider } from "./store/favorites-context";
 import "./index.css";
 import App from "./App";
 
+/**
+ * Where the web application is actually rendered
+ */
+
 ReactDOM.render(
   <FavoritesContextProvider>
     <BrowserRouter>

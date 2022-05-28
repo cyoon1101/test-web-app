@@ -5,10 +5,16 @@ import NewMeetupPage from "./pages/NewMeetups";
 import FavoritesPage from "./pages/Favorites";
 import Layout from './components/layout/Layout';
 
+/**
+ * Skeleton of the web app
+ * <Swtich> is used for the different page/routes that the website can take. 
+ * The website has a "main", "new-meetup", and "favorites" page. 
+ */
+
 function App() {
   return (
     <Layout>
-      <Switch>
+      <Switch> 
         <Route path="/" exact>
           <AllMeetupsPage />
         </Route>

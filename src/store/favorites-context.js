@@ -1,6 +1,9 @@
 import { createContext, useState } from "react";
+/**
+ * used to handle when meetups are favorited or unfavorited
+ */
 
-const FavoritesContext = createContext({
+const FavoritesContext = createContext({ //original context
   favorites: [],
   totoalFavorites: 0,
   addFavorite: (favoriteMeetup) => {}, 
